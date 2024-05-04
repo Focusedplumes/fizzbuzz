@@ -19,7 +19,9 @@ describe('FizzBuzz', () => {
         expect(fizz_buzz([2])).toBe('2')
     });
 
-    
+    test('[0] should be 0', () => {
+        expect(fizz_buzz([0])).toBe('fizzbuzz');
+    });
 });
     
 
